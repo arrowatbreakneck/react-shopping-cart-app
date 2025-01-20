@@ -87,7 +87,7 @@ function App() {
                  {cart.includes(dts)?<button onClick = {()=>{
                   setCart(cart.filter((item)=>{item.id!==dts.id}))
                  }}>remove from cart</button>:<button onClick = {()=>{
-                  setCart([...cart,dts])}}>addto cart</button>}
+                  setCart([...cart,dts])}}>add to cart</button>}
                 </Card.Body>
               </Card>
               </div>
